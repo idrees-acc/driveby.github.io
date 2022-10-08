@@ -1,6 +1,9 @@
-.left-content li:not(:first-child){
-    margin-left: 15px;
+.left-content li:not(:first-child) {
+  margin-left: 15px;
 }
-.left-content a{
-    color: #ffffff;
+.left-content a,.left-content li {
+  color: #ffffff;
+}
+.comp-logo {
+  max-width: 220px;
 }
