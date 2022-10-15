@@ -1493,10 +1493,12 @@ section.contact-us .right-info ul li h6 {
 }
 
 section.contact-us .right-info ul li span {
-  display: block;
+  display: flex;
   font-size: 18px;
   color: #fff;
   font-weight: 700;
+  word-break: break-word;
+  justify-content: space-between;
 }
 
 .footer {
