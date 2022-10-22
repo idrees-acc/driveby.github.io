@@ -261,7 +261,7 @@ body {
   margin-bottom: 50px;
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(250, 250, 250, 0.15);
-  font-size: 22px;
+  font-size: 38px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -966,7 +966,7 @@ section.upcoming-meetings {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 230px;
+  padding-top: 330px;
   padding-bottom: 110px;
 }
 
@@ -975,9 +975,9 @@ section.upcoming-meetings .section-heading {
 }
 
 section.upcoming-meetings .categories {
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 20px;
-  padding: 40px;
+  padding: 0px;
   margin-right: 45px;
 }
 
@@ -1017,7 +1017,15 @@ section.upcoming-meetings .categories .main-button-red a {
   text-align: center;
 }
 
+.meeting-item p {
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+  transition: all 0.3s;
+  line-height: inherit;
+}
 .meeting-item {
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -1324,7 +1332,7 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/facts-bg.jpg);
+  background-image: url(../slider-image/wp1908719.webp);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1343,7 +1351,15 @@ section.our-facts h2 {
 
 .count-area-content {
   text-align: center;
-  background-color: rgba(250, 250, 250, 0.15);
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 25px 30px 35px 30px;
+  margin: 15px 0px;
+}
+
+.checkout-reviews {
+  text-align: center;
+  background-color: rgb(26, 115, 232);
   border-radius: 20px;
   padding: 25px 30px 35px 30px;
   margin: 15px 0px;
@@ -1351,6 +1367,16 @@ section.our-facts h2 {
 
 .percentage .count-digit:after {
   content: "%";
+  margin-left: 3px;
+}
+
+.rupee .count-digit:after {
+  content: "/-";
+  margin-left: 3px;
+}
+
+.rupee .count-digit:before {
+  content: "₹";
   margin-left: 3px;
 }
 
@@ -1374,7 +1400,7 @@ section.our-facts h2 {
 section.our-facts .video {
   text-align: center;
   margin-left: 70px;
-  background-image: url(../images/video-item-bg.jpg);
+  background-image: url(../slider-image/Website\ Background.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
