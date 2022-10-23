@@ -63,6 +63,7 @@
 }
 
 .sub-header .right-icons,
+.left-content,
 section.contact-us .right-info ul li:last-child span {
   -webkit-animation-name: shake;
   animation-name: shake;
