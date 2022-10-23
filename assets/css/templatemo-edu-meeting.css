@@ -1023,6 +1023,7 @@ section.upcoming-meetings .categories .main-button-red a {
   font-weight: 500;
   transition: all 0.3s;
   line-height: inherit;
+  text-align: justify;
 }
 .meeting-item {
   margin-top: 30px;
@@ -1525,6 +1526,7 @@ section.contact-us .right-info ul li span {
   font-weight: 700;
   word-break: break-word;
   justify-content: space-between;
+  gap: 15px;
 }
 
 .footer {

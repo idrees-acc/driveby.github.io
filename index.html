@@ -1001,6 +1001,12 @@
                   <h6>Social Media</h6>
                   <span>
                     <a
+                      href="https://api.whatsapp.com/send?phone=+918928232876&text=Hi,%20I%20contacted%20you%20through%20your%20website."
+                      target="_blank"
+                      ><i class="fa fa-whatsapp"></i
+                    ></a>
+                    <a href="tel:+918928232876"><i class="fa fa-phone"></i></a>
+                    <a
                       href="https://www.facebook.com/driveby.d2g/"
                       target="_blank"
                       ><i class="fa fa-facebook"></i
@@ -1102,6 +1108,7 @@
 
       $(window).scroll(function () {
         checkSection();
+        history.pushState("", "", window.location.pathname);
       });
     </script>
   </body>
