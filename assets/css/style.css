@@ -175,8 +175,8 @@ section.contact-us .right-info ul li:last-child span {
   }
 }
 
-.Main__Container-sc-1n4ud0o-0 div + script + a {
-  display: none;
+[class*='Main__Container-'] div + script + a {
+  display: none !important;
 }
 
 section.our-facts > .container {
