@@ -38,6 +38,7 @@
   max-width: 350px;
   min-height: 250px;
   max-height: 250px;
+  border-radius: 20px;
 }
 .map-iframe {
   border: 0;
@@ -59,7 +60,7 @@
 }
 
 .upcoming-meetings .col-lg-8 .row {
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 .sub-header .right-icons,
@@ -175,7 +176,7 @@ section.contact-us .right-info ul li:last-child span {
   }
 }
 
-[class*='Main__Container-'] div + script + a {
+[class*="Main__Container-"] div + script + a {
   display: none !important;
 }
 
