@@ -144,7 +144,7 @@ section.contact-us .right-info ul li:last-child span {
       #399953 270deg 360deg
     )
     1 stretch;
-  background: rgb(255 255 255 / var(--opacity));
+  background: rgba(0,0,0,0.6);
 }
 /* Animate when Houdini is available */
 @supports (background: paint(houdini)) {
@@ -279,3 +279,7 @@ section.our-facts > .container {
 }
 
 /* Floating button */
+
+.categories img {
+  width: max-content;
+}

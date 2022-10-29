@@ -849,8 +849,12 @@ services
   width: 100%;
 }
 
+.services .item .main-button-red a {
+  margin-top: 15px;
+}
+
 .services .item {
-  background: #285e14;
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   text-align: center;
   color: #fff;
@@ -966,7 +970,7 @@ section.upcoming-meetings {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 330px;
+  padding-top: 20%;
   padding-bottom: 110px;
 }
 
@@ -1024,6 +1028,11 @@ section.upcoming-meetings .categories .main-button-red a {
   transition: all 0.3s;
   line-height: inherit;
   text-align: justify;
+  width: 100%;
+  margin-right: 15px;
+}
+.meeting-item img {
+  width: 20%;
 }
 .meeting-item {
   margin-top: 30px;
