@@ -144,7 +144,7 @@ section.contact-us .right-info ul li:last-child span {
       #399953 270deg 360deg
     )
     1 stretch;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
 }
 /* Animate when Houdini is available */
 @supports (background: paint(houdini)) {
@@ -283,3 +283,57 @@ section.our-facts > .container {
 .categories img {
   width: max-content;
 }
+
+/* Text Slide */
+
+.text {
+  transform: translateX(-200%);
+  opacity: 0;
+  animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+@keyframes slide-in-anim {
+  20% {
+    opacity: 0;
+  }
+  75% {
+    transform: translateX(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+/* Text Slide */
+
+/* Title line */
+.our-services {
+  position: relative;
+}
+
+.service-title{
+  color: #ffffff;
+}
+
+.service-title:before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #d9b13d;
+  left: 32%;
+  top: 10%;
+  position: absolute;
+}
+
+.service-title:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #d9b13d;
+  right: 32%;
+  top: 10%;
+  position: absolute;
+}
+/* Title line */
