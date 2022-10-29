@@ -1401,9 +1401,9 @@ section.our-facts h2 {
 section.our-facts .video {
   text-align: center;
   margin-left: 70px;
-  background-image: url(../slider-image/Website\ Background.jpeg);
+  background-image: url(../slider-image/thumbnail.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center right;
   background-size: cover;
   border-radius: 20px;
 }
