@@ -347,3 +347,7 @@ section.our-facts > .container {
 }
 
 /* Title line */
+
+.count-area-content.button {
+  background-color: rgb(40 94 20);
+}
