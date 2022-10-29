@@ -1393,6 +1393,13 @@ section.our-facts h2 {
   font-weight: 700;
   font-size: 36px;
 }
+
+.count-soon {
+  margin: 5px 0px;
+  color: #d9b13d;
+  font-weight: 700;
+  font-size: 35px;
+}
 .count-title {
   font-size: 18px;
   font-weight: 500;

@@ -311,7 +311,7 @@ section.our-facts > .container {
   position: relative;
 }
 
-.service-title{
+.service-title {
   color: #ffffff;
 }
 
@@ -336,4 +336,14 @@ section.our-facts > .container {
   top: 10%;
   position: absolute;
 }
+
+.price::after,
+.price::before {
+  top: 20%;
+}
+
+.price + h4 {
+  color: #ffffff;
+}
+
 /* Title line */
