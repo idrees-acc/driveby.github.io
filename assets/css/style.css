@@ -351,3 +351,7 @@ section.our-facts > .container {
 .count-area-content.button {
   background-color: rgb(40 94 20);
 }
+
+.about-page .footer {
+  background: rgba(0,0,0,0.55);
+}

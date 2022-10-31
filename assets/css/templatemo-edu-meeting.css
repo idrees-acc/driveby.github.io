@@ -1565,7 +1565,7 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../slider-image/thumbnail.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1600,7 +1600,7 @@ upcoming meetings page
 */
 
 section.meetings-page {
-  background-image: url(../images/meetings-page-bg.jpg);
+  background-image: url(../slider-image/professional.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1702,8 +1702,7 @@ section.meetings-page .pagination ul li a:hover {
 .meeting-single-item .down-content {
   background-color: #fff;
   padding: 40px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 20px;
 }
 
 .meeting-single-item .thumb .date {
@@ -1750,16 +1749,7 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .down-content p {
   color: #1f272b;
-  font-size: 14px;
-}
-
-.meeting-single-item .down-content p.description {
-  margin-top: 40px;
-  padding-top: 40px;
-  border-top: 1px solid #eee;
-  margin-bottom: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #eee;
+  font-size: 16px;
 }
 
 .meeting-single-item .down-content .share {
