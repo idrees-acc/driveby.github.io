@@ -417,12 +417,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #d9b13d !important;
+  color: #000000 !important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #d9b13d !important;
+  color: #000000 !important;
   opacity: 1;
 }
 
@@ -624,7 +624,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #d9b13d;
+  color: #000000;
 }
 
 @media (max-width: 1200px) {
@@ -643,7 +643,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #d9b13d !important;
+    color: #000000 !important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
