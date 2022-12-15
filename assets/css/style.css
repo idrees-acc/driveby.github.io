@@ -576,7 +576,7 @@ ul.accordion-list li div.answer p {
 .pricing .card {
   border: none;
   border-radius: 1rem;
-  transition: all 0.2s;
+  transition: all 0.6s;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -615,13 +615,23 @@ ul.accordion-list li div.answer p {
   font-weight: bold;
   padding: 1rem;
   opacity: 0.7;
-  transition: all 0.2s;
+  transition: all 0.6s;
 }
+
+.card-body {
+  /* transition: transform 0.6s; */
+  transform-style: preserve-3d;
+}
+
+.animation {
+  transform: rotateY(360deg);
+}
+
 
 /* Hover Effects on Card */
 
 @media (min-width: 992px) {
-  .pricing .card:hover {
+  /* .pricing .card:hover {
     margin-top: -.25rem;
     margin-bottom: .25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
@@ -629,7 +639,7 @@ ul.accordion-list li div.answer p {
 
   .pricing .card:hover .btn {
     opacity: 1;
-  }
+  } */
 }
 
 

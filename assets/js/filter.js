@@ -1,56 +1,18 @@
-var tabs = document.querySelectorAll(".tabs_wrap ul li");
-var hatch = document.querySelectorAll(".hatch");
-var sedan = document.querySelectorAll(".sedan");
-var suv = document.querySelectorAll(".suv");
-var l_hatch = document.querySelectorAll(".l-hatch");
-var l_sedan = document.querySelectorAll(".l-sedan");
-var l_suv = document.querySelectorAll(".l-suv");
-var all = document.querySelectorAll(".item_wrap");
 
-all.forEach((item) => {
-  item.classList.add("d-none");
+$(".item_wrap").each(function () {
+  $(".item_wrap").addClass("d-none");
 });
-
-hatch.forEach((male) => {
-  male.classList.remove("d-none");
+$(".hatch").each(function () {
+  $(".hatch").removeClass("d-none");
 });
-
-tabs.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    tabs.forEach((tab) => {
-      tab.classList.remove("active");
+const filterTabs = (tab) => {
+  $(".item_wrap").addClass("d-none");
+  $(".tabs_wrap li").removeClass("active");
+  $(`.tabs_wrap [data-tabs="${tab}"]`).addClass("active")
+  $(".tabs_wrap").each(function (e) {
+    $(`.item_wrap.${tab}`).removeClass("d-none").delay(0).queue(function (next) {
+      $(`.item_wrap.${tab} .container .row`).children(".col-lg-4").children(".card").toggleClass("animation")
+      next();
     });
-    tab.classList.add("active");
-    var tabval = tab.getAttribute("data-tabs");
-
-    all.forEach((item) => {
-      item.classList.add("d-none");
-    });
-
-    if (tabval == "hatch") {
-      hatch.forEach((male) => {
-        male.classList.remove("d-none");
-      });
-    } else if (tabval == "sedan") {
-      sedan.forEach((female) => {
-        female.classList.remove("d-none");
-      });
-    } else if (tabval == "suv") {
-      suv.forEach((suv) => {
-        suv.classList.remove("d-none");
-      });
-    } else if (tabval == "l-hatch") {
-      l_hatch.forEach((l_hatch) => {
-        l_hatch.classList.remove("d-none");
-      });
-    } else if (tabval == "l-sedan") {
-      l_sedan.forEach((l_sedan) => {
-        l_sedan.classList.remove("d-none");
-      });
-    } else if (tabval == "l-suv") {
-      l_suv.forEach((l_suv) => {
-        l_suv.classList.remove("d-none");
-      });
-    }
   });
-});
+}
