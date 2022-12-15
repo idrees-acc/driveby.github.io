@@ -2,8 +2,9 @@
 $(".item_wrap").each(function () {
   $(".item_wrap").addClass("d-none");
 });
-$(".hatch").each(function () {
-  $(".hatch").removeClass("d-none");
+$(".tabs_wrap:first-child").each(function (e,d) {
+  console.log(e,d)
+  $(".item_list li:first-child").removeClass("d-none");
 });
 const filterTabs = (tab) => {
   $(".item_wrap").addClass("d-none");
