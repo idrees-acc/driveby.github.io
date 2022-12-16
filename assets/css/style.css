@@ -380,14 +380,14 @@ ul.accordion-list {
   padding: 20px;
   margin: 0;
   list-style: none;
-  background-color: #f9f9fA;
+  background-color: #f9f9fa;
 }
 ul.accordion-list li {
   position: relative;
   display: block;
   width: 100%;
   height: auto;
-  background-color: #FFF;
+  background-color: #fff;
   padding: 20px;
   margin: 0 auto 15px auto;
   border: 1px solid #eee;
@@ -415,7 +415,7 @@ ul.accordion-list li h3:after {
   position: absolute;
   right: 0;
   top: 0;
-  color: #Fcc110;
+  color: #fcc110;
   transition: all 0.3s ease-in-out;
   font-size: 18px;
 }
@@ -587,7 +587,7 @@ ul.accordion-list li div.answer p {
 .pricing .card-title {
   margin: 0.5rem 0;
   font-size: 0.9rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: bold;
 }
 
@@ -611,7 +611,7 @@ ul.accordion-list li div.answer p {
 .pricing .btn {
   font-size: 80%;
   border-radius: 5rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: bold;
   padding: 1rem;
   opacity: 0.7;
@@ -627,27 +627,60 @@ ul.accordion-list li div.answer p {
   transform: rotateY(360deg);
 }
 
-
 /* Hover Effects on Card */
 
 @media (min-width: 992px) {
-  /* .pricing .card:hover {
-    margin-top: -.25rem;
-    margin-bottom: .25rem;
+  .pricing .card:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
 
   .pricing .card:hover .btn {
     opacity: 1;
-  } */
+  }
 }
 
-.card-animation{
+.card-animation {
   transform: rotateY(90deg);
 }
 
-.item_wrap{
+.item_wrap {
   transition: transform 0.8s;
+}
+
+.item_wrap .col-lg-4:first-child .btn.btn-primary {
+  background: linear-gradient(to top right, #8e8d8d, #a1a2a3, #b3b6b5, #bec0c2);
+}
+.item_wrap .col-lg-4:first-child .card-head {
+  background: linear-gradient(to top right, #8e8d8d, #a1a2a3, #b3b6b5, #bec0c2);
+  color: #fff !important;
+  padding: 25px 20px 80px;
+  margin: 0 0 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+}
+
+.item_wrap .col-lg-4:last-child .btn.btn-primary {
+  background: linear-gradient(to top right, #a97142, #6e3a06);
+}
+.item_wrap .col-lg-4:last-child .card-head {
+  background: linear-gradient(to top right, #a97142, #6e3a06);
+  color: #fff !important;
+  padding: 25px 20px 80px;
+  margin: 0 0 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+}
+
+.item_wrap .col-lg-4:nth-child(2) .btn.btn-primary {
+  background: linear-gradient(to top right, #ffcc00, #d4af37, #b8860b);
+}
+
+.item_wrap .col-lg-4:nth-child(2) .card-head {
+  background: linear-gradient(to top right, #ffcc00, #d4af37, #b8860b);
+  color: #fff !important;
+  padding: 25px 20px 80px;
+  margin: 0 0 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
 }
 
 /* ======================== */
