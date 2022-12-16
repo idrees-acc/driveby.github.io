@@ -650,6 +650,9 @@ ul.accordion-list li div.answer p {
 }
 
 .item_wrap .col-lg-4:first-child .btn.btn-primary {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
   background: linear-gradient(to top right, #8e8d8d, #a1a2a3, #b3b6b5, #bec0c2);
 }
 .item_wrap .col-lg-4:first-child .card-head {
@@ -661,6 +664,9 @@ ul.accordion-list li div.answer p {
 }
 
 .item_wrap .col-lg-4:last-child .btn.btn-primary {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
   background: linear-gradient(to top right, #a97142, #6e3a06);
 }
 .item_wrap .col-lg-4:last-child .card-head {
@@ -672,6 +678,9 @@ ul.accordion-list li div.answer p {
 }
 
 .item_wrap .col-lg-4:nth-child(2) .btn.btn-primary {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
   background: linear-gradient(to top right, #ffcc00, #d4af37, #b8860b);
 }
 
