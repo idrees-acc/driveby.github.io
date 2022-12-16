@@ -641,10 +641,6 @@ ul.accordion-list li div.answer p {
   }
 }
 
-.card-animation {
-  transform: rotateY(90deg);
-}
-
 .item_wrap {
   transition: transform 0.8s;
 }
