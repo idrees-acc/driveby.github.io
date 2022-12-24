@@ -127,7 +127,8 @@
   });
 
   $(".owl-service-item").on("click", ".item", function (e) {
-    console.log($(this).data('title'))
+    const routePath = $(this).data("title").replace(/ /g, "-").toLowerCase();
+    console.log("slider routePath ::: ", routePath);
   });
 
   $(".owl-courses-item").owlCarousel({
