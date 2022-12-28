@@ -785,8 +785,8 @@ label {
   font-size: 1.5rem;
   margin-bottom: 15px;
 }
- 
-.find-brand-page .down-content{
+
+.find-brand-page .down-content {
   border-radius: 0px;
   padding: 5px;
 }
@@ -800,4 +800,8 @@ label {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   padding-bottom: 40px;
+}
+
+.owl-item.active {
+  cursor: pointer;
 }
