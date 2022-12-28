@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>dynamic datatable</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td>colum1</td>
+                    <td>PREMIUM WASH</td>
+                    <td>INTERIOR DEEP CLEAN</td>
+                    <td>EXTERIOR CLEANING/POLISHING</td>
+                    <td>COMPLETE CAR SPA</td>
+                    <td>FULL DETAILING</td>
+                    <td>SILVER PACKAGE</td>
+                    <td>GOLD PACKAGE</td>
+                    <td>PLATINIUM PACKAGE</td>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HATCH-B</td>
+                    <td>499</td>
+                    <td>1999</td>
+                    <td>1999</td>
+                    <td>2999</td>
+                    <td>4999</td>
+                    <td>9999</td>
+                    <td>14999</td>
+                    <td>19999</td>
+                </tr>
+
+                <tr>
+                    <td>SEDAN</td>
+                    <td>599</td>
+                    <td>2499</td>
+                    <td>2499</td>
+                    <td>3799</td>
+                    <td>5999</td>
+                    <td>11999</td>
+                    <td>17999</td>
+                    <td>23999</td>
+                </tr>
+  
+            </tbody>
+        </table>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+        <script src="//cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+        <script>
+        $(document).ready( function () {
+            $('.table').DataTable();
+        } );
+        </script>
+    </body>
+</html>
