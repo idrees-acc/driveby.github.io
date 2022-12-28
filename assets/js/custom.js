@@ -128,7 +128,7 @@
 
   $(".owl-service-item").on("click", ".item", function (e) {
     const routePath = $(this).data("title").replace(/ /g, "-").toLowerCase();
-    console.log("slider routePath ::: ", routePath);
+    window.location.href = routePath+'.html';
   });
 
   $(".owl-courses-item").owlCarousel({
