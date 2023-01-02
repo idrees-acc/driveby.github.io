@@ -774,11 +774,15 @@ label {
 /*   Custom DropDown    */
 /* ========================	*/
 
+.down-content.brand-grid:not(:first-child) {
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 40px;
+}
 .brand-grid {
   display: grid;
   grid-auto-flow: column;
   grid-gap: 1px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .dropdown label {
@@ -804,4 +808,17 @@ label {
 
 .owl-item.active {
   cursor: pointer;
+}
+
+#about-us .meetings-page.about-page{
+  background-image: url(../slider-image/lambo.jpg);
+}
+
+#about-us .down-content {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#vehicle-category{
+  font-size: 20px;
+  color: #000000;
 }

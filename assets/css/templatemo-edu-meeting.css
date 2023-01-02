@@ -28,7 +28,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900");
 /* 
 ---------------------------------------------
 reset
@@ -1700,7 +1700,7 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 40px;
   border-radius: 20px;
 }
@@ -1748,7 +1748,8 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content p {
-  color: #1f272b;
+  color: #ffffff;
+  font-weight: 700;
   font-size: 16px;
 }
 
