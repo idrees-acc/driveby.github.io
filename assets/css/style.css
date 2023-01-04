@@ -666,11 +666,12 @@ ul.accordion-list li div.answer p {
   outline: none;
   border-color: transparent;
   box-shadow: none;
-  background: linear-gradient(to top right, #a97142, #6e3a06);
+  color: #000 !important;
+  background: linear-gradient(to top right, #B7C6D4, #E2E8EE, #C7D3DE, #F6F8F9);
 }
 .item_wrap .col-lg-4:last-child .card-head {
-  background: linear-gradient(to top right, #a97142, #6e3a06);
-  color: #fff !important;
+  background: linear-gradient(to top right, #B7C6D4, #E2E8EE, #C7D3DE, #F6F8F9);
+  color: #000 !important;
   padding: 25px 20px 80px;
   margin: 0 0 10px;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
