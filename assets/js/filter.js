@@ -3,7 +3,7 @@ $(".item_wrap").each(function () {
 });
 $(".tabs_wrap:first-child").each(function (e,d) {
   $(".item_list li:first-child").removeClass("d-none").delay(0).queue(function (next) { /* Show 1st price list onload */
-    $(`.item_list li:first-child .container .row`).children(".col-lg-4").children(".card").toggleClass("animation")
+    $(`.item_list li:first-child .container .row`).children(".price-tags").children(".card").toggleClass("animation")
     next();
   });
 });
@@ -13,7 +13,7 @@ const filterTabs = (tab) => {
   $(`.tabs_wrap [data-tabs="${tab}"]`).addClass("active"); /* Active current tab */
   $(".tabs_wrap").each(function (e) {
     $(`.item_wrap.${tab}`).removeClass("d-none").delay(0).queue(function (next) { /* OnClick show current tab price list */
-      $(`.item_wrap.${tab} .container .row`).children(".col-lg-4").children(".card").toggleClass("animation") /* Animation current tab price list with delay */
+      $(`.item_wrap.${tab} .container .row`).children(".price-tags").children(".card").toggleClass("animation") /* Animation current tab price list with delay */
       next();
     });
   });

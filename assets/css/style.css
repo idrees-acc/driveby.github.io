@@ -648,13 +648,27 @@ ul.accordion-list li div.answer p {
   transition: transform 0.8s;
 }
 
-.item_wrap .col-lg-4:first-child .btn.btn-primary {
+.item_wrap .col-lg-3:first-child .btn.btn-primary {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+  background: linear-gradient(to top right, #a97142, #6e3a06, #804a00, #b08d57);
+}
+.item_wrap .col-lg-3:first-child .card-head {
+  background: linear-gradient(to top right, #a97142, #6e3a06, #804a00, #b08d57);
+  color: #fff !important;
+  padding: 25px 20px 80px;
+  margin: 0 0 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+}
+
+.item_wrap .col-lg-3:nth-child(2) .btn.btn-primary {
   outline: none;
   border-color: transparent;
   box-shadow: none;
   background: linear-gradient(to top right, #8e8d8d, #a1a2a3, #b3b6b5, #bec0c2);
 }
-.item_wrap .col-lg-4:first-child .card-head {
+.item_wrap .col-lg-3:nth-child(2) .card-head {
   background: linear-gradient(to top right, #8e8d8d, #a1a2a3, #b3b6b5, #bec0c2);
   color: #fff !important;
   padding: 25px 20px 80px;
@@ -662,31 +676,31 @@ ul.accordion-list li div.answer p {
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
 }
 
-.item_wrap .col-lg-4:last-child .btn.btn-primary {
+.item_wrap .col-lg-3:nth-child(3) .btn.btn-primary {
   outline: none;
   border-color: transparent;
   box-shadow: none;
-  color: #000 !important;
-  background: linear-gradient(to top right, #B7C6D4, #E2E8EE, #C7D3DE, #F6F8F9);
+  background: linear-gradient(to top right, #ffcc00, #d4af37, #b8860b);
 }
-.item_wrap .col-lg-4:last-child .card-head {
-  background: linear-gradient(to top right, #B7C6D4, #E2E8EE, #C7D3DE, #F6F8F9);
-  color: #000 !important;
+
+.item_wrap .col-lg-3:nth-child(3) .card-head {
+  background: linear-gradient(to top right, #ffcc00, #d4af37, #b8860b);
+  color: #fff !important;
   padding: 25px 20px 80px;
   margin: 0 0 10px;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
 }
 
-.item_wrap .col-lg-4:nth-child(2) .btn.btn-primary {
+.item_wrap .col-lg-3:last-child .btn.btn-primary {
   outline: none;
   border-color: transparent;
   box-shadow: none;
-  background: linear-gradient(to top right, #ffcc00, #d4af37, #b8860b);
+  color: #000 !important;
+  background: linear-gradient(to top right, #b7c6d4, #e2e8ee, #c7d3de, #f6f8f9);
 }
-
-.item_wrap .col-lg-4:nth-child(2) .card-head {
-  background: linear-gradient(to top right, #ffcc00, #d4af37, #b8860b);
-  color: #fff !important;
+.item_wrap .col-lg-3:last-child .card-head {
+  background: linear-gradient(to top right, #b7c6d4, #e2e8ee, #c7d3de, #f6f8f9);
+  color: #000 !important;
   padding: 25px 20px 80px;
   margin: 0 0 10px;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
@@ -811,7 +825,7 @@ label {
   cursor: pointer;
 }
 
-#about-us .meetings-page.about-page{
+#about-us .meetings-page.about-page {
   background-image: url(../slider-image/lambo.jpg);
 }
 
@@ -819,7 +833,7 @@ label {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-#vehicle-category{
+#vehicle-category {
   font-size: 20px;
   color: #000000;
 }
