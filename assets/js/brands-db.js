@@ -39,6 +39,10 @@ const modelDetails = [
     exteriorCleaning: 1999,
     completeCarSpa: 2999,
     fullDetailing: 4999,
+    bronze: 9999,
+    silver: 11999,
+    gold: 16999,
+    platinum: 20999,
   },
   {
     type: "SEDAN",
@@ -47,6 +51,10 @@ const modelDetails = [
     exteriorCleaning: 2499,
     completeCarSpa: 3799,
     fullDetailing: 5999,
+    bronze: 10999,
+    silver: 14999,
+    gold: 18999,
+    platinum: 24999,
   },
   {
     type: "Compac SUV",
@@ -55,6 +63,10 @@ const modelDetails = [
     exteriorCleaning: 2499,
     completeCarSpa: 3799,
     fullDetailing: 5999,
+    bronze: 10999,
+    silver: 14999,
+    gold: 18999,
+    platinum: 24999,
   },
   {
     type: "SUV",
@@ -63,6 +75,10 @@ const modelDetails = [
     exteriorCleaning: 2999,
     completeCarSpa: 4499,
     fullDetailing: 9999,
+    bronze: 12999,
+    silver: 17999,
+    gold: 22999,
+    platinum: 33999,
   },
   {
     type: "L-HATCH-B",
@@ -71,6 +87,10 @@ const modelDetails = [
     exteriorCleaning: 3499,
     completeCarSpa: 5299,
     fullDetailing: 10999,
+    bronze: 14999,
+    silver: 20999,
+    gold: 25999,
+    platinum: 36999,
   },
   {
     type: "L-SEDAN",
@@ -79,6 +99,10 @@ const modelDetails = [
     exteriorCleaning: 3999,
     completeCarSpa: 5999,
     fullDetailing: 11999,
+    bronze: 16999,
+    silver: 23999,
+    gold: 29999,
+    platinum: 42999,
   },
   {
     type: "L-Compac SUV",
@@ -87,6 +111,10 @@ const modelDetails = [
     exteriorCleaning: 3999,
     completeCarSpa: 5999,
     fullDetailing: 11999,
+    bronze: 16999,
+    silver: 23999,
+    gold: 29999,
+    platinum: 42999,
   },
   {
     type: "L-SUV",
@@ -95,6 +123,10 @@ const modelDetails = [
     exteriorCleaning: 4499,
     completeCarSpa: 6799,
     fullDetailing: 12999,
+    bronze: 18999,
+    silver: 27999,
+    gold: 33999,
+    platinum: 48999,
   },
 ];
 let brandValue;
