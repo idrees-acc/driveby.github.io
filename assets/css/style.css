@@ -837,3 +837,15 @@ label {
   font-size: 20px;
   color: #000000;
 }
+
+.services .item h4.read-more {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.services .item h4.read-more::after {
+  content: url("../images/read-more.png");
+  position: absolute;
+  padding-left: 5px;
+}

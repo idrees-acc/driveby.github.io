@@ -861,7 +861,7 @@ services
   border-radius: 20px;
   text-align: center;
   color: #fff;
-  padding: 30px;
+  padding: 30px 30px 10px;
 }
 
 .services .item .icon {
@@ -1926,5 +1926,210 @@ responsive
 
   .header-area .main-nav .nav li ul.sub-menu li a {
     color: #1f272b;
+  }
+}
+
+/*
+---------------------------------------------
+heading page gif
+---------------------------------------------
+*/
+
+section.meetings-page.premium-wash {
+  background-image: url(../gif/premium-wash.gif);
+}
+
+.service-page .meeting-single-item .down-content {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+section.heading-page.interior-cleaning {
+  background-image: url(../gif/interior-cleaning.gif);
+}
+
+section.heading-page.exterior-cleaning {
+  background-image: url(../gif/exterior.gif);
+}
+
+section.heading-page.ceramic {
+  background-image: url(../gif/ceramic.gif);
+}
+
+.r-gap-15 {
+  row-gap: 15px;
+}
+
+.c-gap-15 {
+  column-gap: 15px;
+}
+
+.box-service:nth-child(1)::before {
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  background-image: url("../service-images/Hatch Back.jpg");
+}
+
+.box-service:nth-child(2)::before {
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  background-image: url("../service-images/Sedan.jpg");
+}
+.box-service:nth-child(3)::before {
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  background-image: url("../service-images/SUV.jfif");
+}
+.box-service:nth-child(4)::before {
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  background-image: url("../service-images/Lux\ HB.jpg");
+}
+.box-service:nth-child(5)::before {
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  background-image: url("../service-images/Lux\ Sedan.jfif");
+}
+.box-service:nth-child(6)::before {
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  background-image: url("../service-images/LUX\ suv.jpg");
+}
+
+.box-service {
+  box-sizing: border-box;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32%;
+  max-width: 260px;
+  min-height: 210px;
+  flex-direction: column;
+}
+
+.box-service h1 {
+  z-index: 99;
+  color: yellow;
+  text-shadow: 0 0 5px #0000ff;
+  text-align: center;
+  font-size: 32px;
+}
+
+.price {
+  color: yellow;
+  text-shadow: 0 0 5px #0000ff;
+  z-index: 99;
+}
+
+.description,
+.service-page .meeting-single-item .down-content h4 {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.service-hr-line-title {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-hr-line-title .line-yellow {
+  background: #d9b13d;
+  width: 100px;
+  height: 2px;
+}
+
+.service-sub-title {
+  padding: 0px 15px;
+}
+
+.door-step-service .blink {
+  margin-top: 15px;
+}
+
+.service-vr-line-title {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-vr-line-title .line-yellow {
+  background: #d9b13d;
+  height: 100%;
+  width: 3px;
+}
+
+.service-sub-title {
+  padding: 0px 15px;
+  margin-bottom: 0px !important;
+}
+
+.door-step-service {
+  padding: 0px 25px;
+}
+
+.down-content-door {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+}
+.down-content-door .door-step-service img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.blink {
+  animation: blink 2s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
   }
 }

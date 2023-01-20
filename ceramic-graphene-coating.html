@@ -116,7 +116,9 @@
                   <a href="javascript:void(0)">Services</a>
                   <ul class="sub-menu">
                     <li><a href="index.html" class="active">Workshop</a></li>
-                    <li><a href="door-step-service.html">Door Step Service</a></li>
+                    <li>
+                      <a href="door-step-service.html">Door Step Service</a>
+                    </li>
                     <li><a href="vip-membership.html">VIP Membership</a></li>
                     <li>
                       <a href="find-brand.html">Find Your Brand Rates</a>
@@ -126,7 +128,7 @@
                 <!-- <li class="scroll-to-section">
                   <a href="#courses">Gallery</a>
                 </li> -->
-                
+
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="index.html#contact">Contact Us</a></li>
               </ul>
@@ -141,13 +143,12 @@
     </header>
     <!-- ***** Header Area End ***** -->
 
-    <section class="heading-page header-text" id="top">
+    <section class="heading-page ceramic header-text" id="top">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 service-title about position-relative">
-            <h4>Ceramic Graphene Coating </h4>
+            <h4>Ceramic Graphene Coating</h4>
             <h2>DRIVE-BY BEST AUTO DETAILING SERVICE</h2>
-
           </div>
         </div>
       </div>
@@ -161,101 +162,105 @@
               <div class="col-lg-12">
                 <div class="meeting-single-item">
                   <div class="down-content">
-                    <p class="description">
-                     
-                        <h4><b>Ceramic and Graphene coatings</b></h4>
-                        <br /><br />Advanced coatings derived with nano-technology that help prevent environmental damages on your car’s precious paint. These coatings form a 9H or 10H hard crystallised layer on top of your vehicle’s clear coat and provide resistance against light scratches, chemical / acids and also protects the paint against harmful UV rays. You will also experience hydrophobic properties with the application of these coatings, which would avoid water markings to a great extent. These coatings are available with warranty plans.
-
-                        
-                    </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="main-button-red">
-                        <a href="index.html">Back To Home</a>
-                      </div>
+                    <div class="description">
+                      <h4><b>Ceramic and Graphene coatings</b></h4>
+                      <br /><br />Advanced coatings derived with nano-technology
+                      that help prevent environmental damages on your car’s
+                      precious paint. These coatings form a 9H or 10H hard
+                      crystallised layer on top of your vehicle’s clear coat and
+                      provide resistance against light scratches, chemical /
+                      acids and also protects the paint against harmful UV rays.
+                      You will also experience hydrophobic properties with the
+                      application of these coatings, which would avoid water
+                      markings to a great extent. These coatings are available
+                      with warranty plans.
                     </div>
                   </div>
                 </div>
               </div>
+              <div class="col-lg-12">
+                <div class="main-button-red">
+                  <a href="index.html">Back To Home</a>
+                </div>
+              </div>
             </div>
-            <div class="footer">
-              <p>
-                Copyright © DriveBy 2022. All Rights Reserved.
-                <a
-                  href="https://api.whatsapp.com/send?phone=+919768062647&text=Hello,%20please%20help%20me%20build%20our/my%20website."
-                  target="_blank"
-                  >Built With Care By Idrees Tarwadi</a
-                >
-              </p>
-            </div>
-          </section>
-      
-          <!-- Scripts -->
-          <!-- Bootstrap core JavaScript -->
-          <script src="vendor/jquery/jquery.min.js"></script>
-          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      
-          <script src="assets/js/isotope.min.js"></script>
-          <script src="assets/js/owl-carousel.js"></script>
-          <script src="assets/js/lightbox.js"></script>
-          <script src="assets/js/tabs.js"></script>
-          <script src="assets/js/video.js"></script>
-          <script src="assets/js/slick-slider.js"></script>
-          <script src="assets/js/custom.js"></script>
-          <script>
-      
-            var showSection = function showSection(section, isAnimate) {
-              var direction = section.replace(/#/, ""),
-                reqSection = $(".section").filter(
-                  '[data-section="' + direction + '"]'
-                ),
-                reqSectionPos = reqSection.offset().top - 0;
-      
-              if (isAnimate) {
-                $("body, html").animate(
-                  {
-                    scrollTop: reqSectionPos,
-                  },
-                  800
-                );
-              } else {
-                $("body, html").scrollTop(reqSectionPos);
-              }
-            };
-      
-            var checkSection = function checkSection() {
-              $(".section").each(function () {
-                var $this = $(this),
-                  topEdge = $this.offset().top - 80,
-                  bottomEdge = topEdge + $this.height(),
-                  wScroll = $(window).scrollTop();
-                if (topEdge < wScroll && bottomEdge > wScroll) {
-                  var currentId = $this.data("section"),
-                    reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-                  reqLink
-                    .closest("li")
-                    .addClass("active")
-                    .siblings()
-                    .removeClass("active");
-                }
-              });
-            };
-      
-            $(".main-menu, .responsive-menu, .scroll-to-section").on(
-              "click",
-              "a",
-              function (e) {
-                e.preventDefault();
-                showSection($(this).attr("href"), true);
-              }
-            );
-      
-            $(window).scroll(function () {
-              checkSection();
-            });
-          </script>
-        </body>
-      </html>
-      
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          Copyright © DriveBy 2022. All Rights Reserved.
+          <a
+            href="https://api.whatsapp.com/send?phone=+919768062647&text=Hello,%20please%20help%20me%20build%20our/my%20website."
+            target="_blank"
+            >Built With Care By Idrees Tarwadi</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos,
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function () {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu, .responsive-menu, .scroll-to-section").on(
+        "click",
+        "a",
+        function (e) {
+          e.preventDefault();
+          showSection($(this).attr("href"), true);
+        }
+      );
+
+      $(window).scroll(function () {
+        checkSection();
+      });
+    </script>
+  </body>
+</html>
