@@ -440,6 +440,7 @@ ul.accordion-list li div.answer p {
   line-height: 150%;
   margin: 0 0 15px 0;
   font-size: 14px;
+  color: #000;
 }
 
 /* ======================== */
@@ -848,4 +849,12 @@ label {
   content: url("../images/read-more.png");
   position: absolute;
   padding-left: 5px;
+}
+
+.about-us-page .meeting-single-item .down-content .description {
+  font-size: 19px;
+}
+
+.cell-number{
+  font-size: 20px;
 }

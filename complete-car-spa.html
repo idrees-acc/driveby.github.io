@@ -115,9 +115,11 @@
                 <li class="has-sub">
                   <a href="javascript:void(0)">Services</a>
                   <ul class="sub-menu">
-                    <li><a href="index.html">Workshop</a></li>
-                    <li><a href="door-step-service.html">Door Step Service</a></li>
-                    <li><a href="vip-membership.html">VIP Membership</a></li>
+                    <li><a href="index.html">Studio</a></li>
+                    <li>
+                      <a href="door-step-service.html">Door Step Service</a>
+                    </li>
+                    <li><a href="annual-membership.html">Annual Membership</a></li>
                     <li>
                       <a href="find-brand.html">Find Your Brand Rates</a>
                     </li>
@@ -126,7 +128,7 @@
                 <!-- <li class="scroll-to-section">
                   <a href="#courses">Gallery</a>
                 </li> -->
-              
+
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="index.html#contact">Contact Us</a></li>
               </ul>
@@ -147,7 +149,6 @@
           <div class="col-lg-12 service-title about position-relative">
             <h4>Complete Car Spa</h4>
             <h2>DRIVE-BY BEST AUTO DETAILING SERVICE</h2>
-
           </div>
         </div>
       </div>
@@ -161,120 +162,114 @@
               <div class="col-lg-12">
                 <div class="meeting-single-item">
                   <div class="down-content">
-                    <p class="description">
-                     
-                        <h4><b>Complete Car Spa</b></h4>
-                        <br/><br/>This is an intensive premium wash wherein we thoroughly clean vehicle exterior as well as interior By following Wet vacuuming, Dusting, Fabric cleansing, Leather Treatment, PLVR Polishing and 3 steps polishing process on exterior. This will give your car a shiny and brand new look.
-                       <br/><br/><b> SERVICES INCLUDES</b>
- 
-                       <br/><br/><b> Interior   </b>     	                                                                                            	
-                       <br/> Seats Deep Cleaning
-                        <br/>Dashboard Cleaning & Dressing
-                        <br/>Door Panel Cleaning
-                        <br/>Ac vent dry clean
-                        <br/>Roof Cleaning
-                        <br/>Vacuuming DRY + WET
-                        <br/>Matts & Carpet cleaning
-                         
-                        <br/><br/><b>Exterior</b>
-                        <br/>Premium Wash
-                        <br/>Onestep Polishing with Rubbing compound + Polish
-                        <br/>Tyre Cleaning & Dressing
-                        <br/>Engine De-Greasing + Cleaning.
-                         <br/><b>Results – </b>Clean Shine interior, Exterior Hydrophobic effect, Protects from UV, Gives high Shine and Gloss
-                        
-                        
-                        
-                        
-                            </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="main-button-red">
-                        <a href="index.html">Back To Home</a>
-                      </div>
+                    <div class="description">
+                      <h4><b>Complete Car Spa</b></h4>
+                      <br /><br />This is an intensive premium wash wherein we
+                      thoroughly clean vehicle exterior as well as interior By
+                      following Wet vacuuming, Dusting, Fabric cleansing,
+                      Leather Treatment, PLVR Polishing and 3 steps polishing
+                      process on exterior. This will give your car a shiny and
+                      brand new look. <br /><br /><b> SERVICES INCLUDES</b>
+
+                      <br /><br /><b> Interior </b> <br />
+                      Seats Deep Cleaning <br />Dashboard Cleaning & Dressing
+                      <br />Door Panel Cleaning <br />Ac vent dry clean
+                      <br />Roof Cleaning <br />Vacuuming DRY + WET <br />Matts
+                      & Carpet cleaning
+
+                      <br /><br /><b>Exterior</b> <br />Premium Wash
+                      <br />Onestep Polishing with Rubbing compound + Polish
+                      <br />Tyre Cleaning & Dressing <br />Engine De-Greasing +
+                      Cleaning. <br /><b>Results – </b>Clean Shine interior,
+                      Exterior Hydrophobic effect, Protects from UV, Gives high
+                      Shine and Gloss
                     </div>
                   </div>
                 </div>
               </div>
+              <div class="col-lg-12">
+                <div class="main-button-red">
+                  <a href="index.html">Back To Home</a>
+                </div>
+              </div>
             </div>
-            <div class="footer">
-              <p>
-                Copyright © DriveBy 2022. All Rights Reserved.
-                <a
-                  href="https://api.whatsapp.com/send?phone=+919768062647&text=Hello,%20please%20help%20me%20build%20our/my%20website."
-                  target="_blank"
-                  >Built With Care By Idrees Tarwadi</a
-                >
-              </p>
-            </div>
-          </section>
-      
-          <!-- Scripts -->
-          <!-- Bootstrap core JavaScript -->
-          <script src="vendor/jquery/jquery.min.js"></script>
-          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      
-          <script src="assets/js/isotope.min.js"></script>
-          <script src="assets/js/owl-carousel.js"></script>
-          <script src="assets/js/lightbox.js"></script>
-          <script src="assets/js/tabs.js"></script>
-          <script src="assets/js/video.js"></script>
-          <script src="assets/js/slick-slider.js"></script>
-          <script src="assets/js/custom.js"></script>
-          <script>
-      
-            var showSection = function showSection(section, isAnimate) {
-              var direction = section.replace(/#/, ""),
-                reqSection = $(".section").filter(
-                  '[data-section="' + direction + '"]'
-                ),
-                reqSectionPos = reqSection.offset().top - 0;
-      
-              if (isAnimate) {
-                $("body, html").animate(
-                  {
-                    scrollTop: reqSectionPos,
-                  },
-                  800
-                );
-              } else {
-                $("body, html").scrollTop(reqSectionPos);
-              }
-            };
-      
-            var checkSection = function checkSection() {
-              $(".section").each(function () {
-                var $this = $(this),
-                  topEdge = $this.offset().top - 80,
-                  bottomEdge = topEdge + $this.height(),
-                  wScroll = $(window).scrollTop();
-                if (topEdge < wScroll && bottomEdge > wScroll) {
-                  var currentId = $this.data("section"),
-                    reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-                  reqLink
-                    .closest("li")
-                    .addClass("active")
-                    .siblings()
-                    .removeClass("active");
-                }
-              });
-            };
-      
-            $(".main-menu, .responsive-menu, .scroll-to-section").on(
-              "click",
-              "a",
-      ss        function (e) {
-                e.preventDefault();
-                showSection($(this).attr("href"), true);
-              }
-            );
-      
-            $(window).scroll(function () {
-              checkSection();
-            });
-          </script>
-        </body>
-      </html>
-      
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          Copyright © DriveBy 2022. All Rights Reserved.
+          <a
+            href="https://api.whatsapp.com/send?phone=+919768062647&text=Hello,%20please%20help%20me%20build%20our/my%20website."
+            target="_blank"
+            >Built With Care By Idrees Tarwadi</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos,
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function () {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu, .responsive-menu, .scroll-to-section").on(
+        "click",
+        "a",
+        function (e) {
+          e.preventDefault();
+          showSection($(this).attr("href"), true);
+        }
+      );
+
+      $(window).scroll(function () {
+        checkSection();
+      });
+    </script>
+  </body>
+</html>

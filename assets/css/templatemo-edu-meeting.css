@@ -1939,6 +1939,15 @@ section.meetings-page.premium-wash {
   background-image: url(../gif/premium-wash.gif);
 }
 
+section.meetings-page.door-step-service {
+  background-image: url(../door-step/door-step.png);
+}
+
+.door-step-service .meeting-single-item .down-content-door {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+}
+
 .service-page .meeting-single-item .down-content {
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -2114,9 +2123,14 @@ section.heading-page.ceramic {
   padding: 40px;
   border-radius: 20px;
 }
+
 .down-content-door .door-step-service img {
   border-radius: 50%;
   width: 80%;
+}
+
+.door-step-service .price{
+  font-size: 24px;
 }
 
 .blink {
