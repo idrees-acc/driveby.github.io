@@ -855,6 +855,18 @@ label {
   font-size: 19px;
 }
 
-.cell-number{
+.cell-number {
   font-size: 20px;
+}
+
+.discount-rates{
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  background: rgba(0,0,0,0.7);
+  padding: 15px;
+  width: 95%;
+  margin: 0 auto;
+  text-transform: capitalize;
 }
