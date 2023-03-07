@@ -859,15 +859,40 @@ label {
   font-size: 20px;
 }
 
-.discount-rates{
+.discount-rates {
   display: flex;
   justify-content: center;
   color: #ffffff;
   font-weight: 700;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   padding: 15px;
   width: 95%;
   margin: 0 auto;
   font-size: 1.6rem;
   text-transform: capitalize;
+}
+
+.sub-sub-menu {
+  display: none;
+}
+
+.cus-sub-menu:hover .sub-sub-menu {
+  display: inline;
+}
+
+.header-area .main-nav .nav li.has-sub-menu {
+  position: relative;
+}
+
+.header-area .main-nav .nav li.has-sub-menu a:after {
+  font-family: FontAwesome;
+  content: "\f107";
+  font-size: 12px;
+  color: #000;
+  position: absolute;
+  right: 10px;
+}
+
+.owl-carousel .item:hover {
+  background-color: #d9b13d;
 }
