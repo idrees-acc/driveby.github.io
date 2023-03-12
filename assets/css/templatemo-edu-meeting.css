@@ -1935,7 +1935,7 @@ heading page gif
 ---------------------------------------------
 */
 
-section.meetings-page.premium-wash {
+section.heading-page.premiumwash {
   background-image: url(../gif/premium-wash.gif);
 }
 
@@ -1981,7 +1981,7 @@ section.heading-page.ceramic {
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
-  background-image: url("../service-images/Hatch Back.jpg");
+  
 }
 
 .box-service:nth-child(2)::before {
@@ -1993,7 +1993,7 @@ section.heading-page.ceramic {
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
-  background-image: url("../service-images/Sedan.jpg");
+  
 }
 .box-service:nth-child(3)::before {
   content: "";
@@ -2004,8 +2004,7 @@ section.heading-page.ceramic {
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
-  background-image: url("../service-images/SUV.jfif");
-}
+  }
 .box-service:nth-child(4)::before {
   content: "";
   background-size: cover;
@@ -2015,8 +2014,7 @@ section.heading-page.ceramic {
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
-  background-image: url("../service-images/Lux\ HB.jpg");
-}
+  }
 .box-service:nth-child(5)::before {
   content: "";
   background-size: cover;
@@ -2026,7 +2024,6 @@ section.heading-page.ceramic {
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
-  background-image: url("../service-images/Lux\ Sedan.jfif");
 }
 .box-service:nth-child(6)::before {
   content: "";
@@ -2037,7 +2034,167 @@ section.heading-page.ceramic {
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
+}
+.premium-wash .box-service:nth-child(1)::before{
+  background-image: url("../service-images/Hatch\ Back.jpg");
+
+}
+.premium-wash .box-service:nth-child(2)::before{
+  background-image: url("../service-images/Sedan.jpg");
+
+}
+.premium-wash .box-service:nth-child(3)::before {
+  background-image: url("../service-images/SUV.jfif");
+
+}
+.premium-wash .box-service:nth-child(4)::before {
+  background-image: url("../service-images/Lux\ HB.jpg");
+
+}
+.premium-wash .box-service:nth-child(5)::before {
+  background-image: url("../service-images/Lux\ Sedan.jfif");
+
+} 
+.premium-wash .box-service:nth-child(6)::before {
   background-image: url("../service-images/LUX\ suv.jpg");
+}
+.interior-deep-cleaning .box-service:nth-child(1)::before{
+  background-image: url("../service-images/ineriordeepcleaning1.jpeg");
+
+}
+.interior-deep-cleaning .box-service:nth-child(2)::before{
+  background-image: url("../service-images/ineriordeepcleaning2.png");
+
+}
+.interior-deep-cleaning .box-service:nth-child(3)::before {
+  background-image: url("../service-images/ineriordeepcleaning3.png");
+
+}
+.interior-deep-cleaning .box-service:nth-child(4)::before {
+  background-image: url("../service-images/ineriordeepcleaning4.jpg");
+
+}
+.interior-deep-cleaning .box-service:nth-child(5)::before {
+  background-image: url("../service-images/ineriordeepcleaning5.png");
+
+} 
+.interior-deep-cleaning .box-service:nth-child(6)::before {
+  background-image: url("../service-images/ineriordeepcleaning6.jpg");
+}
+.exterior-deep-cleaning .box-service:nth-child(1)::before{
+  background-image: url("../service-images/exteriorpolishing1.jpg");
+
+}
+.exterior-deep-cleaning .box-service:nth-child(2)::before{
+  background-image: url("../service-images/exteriorpolishing2.jpg");
+
+}
+.exterior-deep-cleaning .box-service:nth-child(3)::before {
+  background-image: url("../service-images/exteriorpolishing3.jpg");
+
+}
+.exterior-deep-cleaning .box-service:nth-child(4)::before {
+  background-image: url("../service-images/exteriorpolishing4.png");
+
+}
+.exterior-deep-cleaning .box-service:nth-child(5)::before {
+  background-image: url("../service-images/exteriorpolishing5.png");
+
+} 
+.exterior-deep-cleaning .box-service:nth-child(6)::before {
+  background-image: url("../service-images/exteriorpolishing6.jpg");
+}
+.car-spa .box-service:nth-child(1)::before{
+  background-image: url("../service-images/carspa1.jpg");
+
+}
+.car-spa .box-service:nth-child(2)::before{
+  background-image: url("../service-images/carspa2.jpg");
+
+}
+.car-spa .box-service:nth-child(3)::before {
+  background-image: url("../service-images/carspa3.jpg");
+
+}
+.car-spa .box-service:nth-child(4)::before {
+  background-image: url("../service-images/carspa4.jpg");
+
+}
+.car-spa .box-service:nth-child(5)::before {
+  background-image: url("../service-images/carspa5.webp");
+
+} 
+.car-spa .box-service:nth-child(6)::before {
+  background-image: url("../service-images/carspa6.jpg");
+}
+.auto-detailing .box-service:nth-child(1)::before{
+  background-image: url("../service-images/detailing1.jpg");
+
+}
+.auto-detailing .box-service:nth-child(2)::before{
+  background-image: url("../service-images/detailing2.jpg");
+
+}
+.auto-detailing .box-service:nth-child(3)::before {
+  background-image: url("../service-images/detailing3.jfif");
+
+}
+.auto-detailing .box-service:nth-child(4)::before {
+  background-image: url("../service-images/detailing4.jpg");
+
+}
+.auto-detailing .box-service:nth-child(5)::before {
+  background-image: url("../service-images/detailing5.jfif");
+
+} 
+.auto-detailing .box-service:nth-child(6)::before {
+  background-image: url("../service-images/detailing6.jfif");
+}
+.ceramic-coating .box-service:nth-child(1)::before{
+  background-image: url("../service-images/ceramic1.jpg");
+
+}
+.ceramic-coating .box-service:nth-child(2)::before{
+  background-image: url("../service-images/ceramic2.jpg");
+
+}
+.ceramic-coating .box-service:nth-child(3)::before {
+  background-image: url("../service-images/ceramic3.jpg");
+
+}
+.ceramic-coating .box-service:nth-child(4)::before {
+  background-image: url("../service-images/ceramic4.jfif");
+
+}
+.ceramic-coating .box-service:nth-child(5)::before {
+  background-image: url("../service-images/ceramic5.jpg");
+
+} 
+.ceramic-coating .box-service:nth-child(6)::before {
+  background-image: url("../service-images/ceramic6.jpg");
+}
+.ozone-treatment .box-service:nth-child(1)::before{
+  background-image: url("../service-images/Ozone\ Air\ Treatment.webp");
+
+}
+.ozone-treatment .box-service:nth-child(2)::before{
+  background-image: url("../service-images/Ozone\ Air\ Treatment.webp");
+
+}
+.ozone-treatment .box-service:nth-child(3)::before {
+  background-image: url("../service-images/Ozone\ Air\ Treatment.webp");
+
+}
+.ozone-treatment .box-service:nth-child(4)::before {
+  background-image: url("../service-images/Ozone\ Air\ Treatment.webp");
+
+}
+.ozone-treatment .box-service:nth-child(5)::before {
+  background-image: url("../service-images/Ozone\ Air\ Treatment.webp");
+
+} 
+.ozone-treatment .box-service:nth-child(6)::before {
+  background-image: url("../service-images/Ozone\ Air\ Treatment.webp");
 }
 
 .box-service {

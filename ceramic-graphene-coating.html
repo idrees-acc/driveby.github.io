@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
 
-    <title>DriveBy - About Us</title>
+    <title>DriveBy - ceramic-graphene-coating</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -108,14 +108,14 @@
               <!-- ***** Logo End ***** -->
               <!-- ***** Menu Start ***** -->
               <ul class="nav">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
 
                 <li><a href="about.html">About Us</a></li>
 
                 <li class="has-sub">
                   <a href="javascript:void(0)">Services</a>
                   <ul class="sub-menu">
-                    <li><a href="index.html" class="active">Studio</a></li>
+                    <li><a href="index.html">Studio</a></li>
                     <li>
                       <a href="door-step-service.html">Door Step Service</a>
                     </li>
@@ -146,15 +146,15 @@
     <section class="heading-page ceramic header-text" id="top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 service-title about position-relative">
-            <h4>Ceramic Graphene Coating</h4>
-            <h2>DRIVE-BY BEST AUTO DETAILING SERVICE</h2>
+          <div class="col-lg-12 about position-relative">
+
+            <h2>Ceramic Graphene Coating</h2>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="meetings-page about-page" id="meetings">
+    <section class="meetings-page service-page about-page" id="meetings">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -162,25 +162,52 @@
               <div class="col-lg-12">
                 <div class="meeting-single-item">
                   <div class="down-content">
-                    <div class="description">
-                      <h4><b>Ceramic and Graphene coatings</b></h4>
-                      <br /><br />Advanced coatings derived with nano-technology
-                      that help prevent environmental damages on your car’s
-                      precious paint. These coatings form a 9H or 10H hard
-                      crystallised layer on top of your vehicle’s clear coat and
-                      provide resistance against light scratches, chemical /
-                      acids and also protects the paint against harmful UV rays.
-                      You will also experience hydrophobic properties with the
-                      application of these coatings, which would avoid water
-                      markings to a great extent. These coatings are available
-                      with warranty plans.
+                    <div class="description row">
+                      <h1 class="text-center">CERAMIC AND GRAPHENE COATING
+                      </h1>
+                      <br />Advanced coatings derived with nano-technology that 
+                      help prevent environmental damages on your car’s precious paint. 
+                      These coatings form a 9H or 10H hard crystallised layer on top of 
+                      your vehicle’s clear coat and provide resistance against light scratches,
+                       chemical / acids and also protects the paint against harmful UV rays. 
+                       You will also experience hydrophobic properties with the application of these coatings, 
+                       which would avoid water markings to a great extent. 
+                      These coatings are available with warranty plans.
+                      <div class="col-lg-2"></div>
+                      <div class="col-lg-8 row r-gap-15 c-gap-15 pt-3 ceramic-coating">
+                        <div class="box-service" data-tabs="HATCH-B">
+                          <h1>HATCHBACK</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                        <div class="box-service" data-tabs="SEDAN">
+                          <h1>SEDAN</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                        <div class="box-service" data-tabs="SUV">
+                          <h1>SUV</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                        <div class="box-service" data-tabs="L-HATCH-B">
+                          <h1>LUXURY HATCHBACK</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                        <div class="box-service" data-tabs="L-SEDAN">
+                          <h1>LUXURY SEDAN</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                        <div class="box-service"  data-tabs="L-SUV">
+                          <h1>LUXURY SUV</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                      </div>
+                      <br />
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-lg-12">
                 <div class="main-button-red">
-                  <a href="index.html">Back To Home</a>
+                  <a href="index.html">BOOK NOW</a>
                 </div>
               </div>
             </div>
@@ -211,7 +238,14 @@
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/brands-db.js"></script>
     <script>
+      $(".box-service").each(function () {
+        const modelServicePrice = modelDetails.filter(
+          (i) => i.type === $(this).attr("data-tabs")
+        );
+        $(this).children(".price").text(`₹${modelServicePrice[0].fullDetailing}`)
+      });
       var showSection = function showSection(section, isAnimate) {
         var direction = section.replace(/#/, ""),
           reqSection = $(".section").filter(
@@ -262,5 +296,6 @@
         checkSection();
       });
     </script>
+
   </body>
 </html>

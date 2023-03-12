@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
 
-    <title>DriveBy - About Us</title>
+    <title>DriveBy - Interior Deep Cleaning</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -142,19 +142,20 @@
       </div>
     </header>
     <!-- ***** Header Area End ***** -->
-
     <section class="heading-page interior-cleaning header-text" id="top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 service-title about position-relative">
-            <h4>Interior Deep Cleaning</h4>
-            <h2>DRIVE-BY BEST AUTO DETAILING SERVICE</h2>
+          <div class="col-lg-12 about position-relative">
+
+            <h2>Interior Deep Cleaning</h2>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="meetings-page service-page about-page" id="meetings">
+
+
+    <section class="meetings-page service-page  about-page" id="meetings">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -162,42 +163,57 @@
               <div class="col-lg-12">
                 <div class="meeting-single-item">
                   <div class="down-content">
-                    <div class="description">
-                      <h4><b>Interior Deep Cleaning</b></h4>
-                      <br /><br />If your car is dull with stains marks and
-                      fungus, full of pretty dusty, then a thorough car interior
-                      deep cleaning is what you should be looking for. We
-                      provide dashboard cleaning, interior wet shampooing,
-                      interior vacuum cleaning, antiviral and bacterial
-                      treatment at our Workshop. As the name suggests, we focus
-                      on the details and bringing out the best possible look of
-                      your car in the most affordable and competitive prices
-                      possible.
+                    <div class="description row">
+                      <h1 class="text-center">Interior Deep Cleaning</h1>
+                      <br />If your car is dull with stains marks and fungus, full of pretty dusty, then a thorough car interior deep cleaning is what you should be looking for. We provide dashboard cleaning, interior wet shampooing, interior vacuum cleaning, antiviral and bacterial treatment at our Workshop. As the name suggests, we focus on the details and bringing out the best possible look of your car in the most affordable and competitive prices possible.
+                      <div class="col-lg-4">
+                        <br /><b>SERVICES INCLUDES</b><br /><br />
+                        <b>Interior</b>
+                        <br />
+                        Seats Deep Cleaning <br />Dashboard Cleaning & Dressing
+                        <br />Door Panel Cleaning<br />Ac vent dry clean<br />Roof Cleaning<br />Vacuuming DRY + WET
+                        <br />Matts & Carpet cleaning
+                        <br /><br />
+                        <b>Exterior</b> <br />
+                        Premium Wash <br />Tyre Cleaning & Dressing <br />Engine
+                        Cleaning & Dressing
 
-                      <br /><br /><b>SERVICES INCLUDES</b> ` <br /><br /><b
-                        >Interior</b
-                      >
+                        <br /><br /><b>Results –</b> Clean Shine interior, Gives high Shine and Gloss
+                      </div>
+                      <div class="col-lg-8 row r-gap-15 c-gap-15 pt-3 interior-deep-cleaning">
+                        <div class="box-service" data-tabs="HATCH-B">
+                          <h1>HATCHBACK</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                        <div class="box-service" data-tabs="SEDAN">
+                          <h1>SEDAN</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                        <div class="box-service" data-tabs="SUV">
+                          <h1>SUV</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                        <div class="box-service" data-tabs="L-HATCH-B">
+                          <h1>LUXURY HATCHBACK</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                        <div class="box-service" data-tabs="L-SEDAN">
+                          <h1>LUXURY SEDAN</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                        <div class="box-service" data-tabs="L-SUV">
+                          <h1>LUXURY SUV</h1>
+                          <h2 class="price"></h2>
+                        </div>
+                      </div>
                       <br />
-                      Seats Deep Cleaning <br />
-                      Dashboard Cleaning & Dressing <br />Door Panel Cleaning
-                      <br />Ac vent dry clean <br />Roof Cleaning
-                      <br />Vacuuming DRY + WET <br />Matts & Carpet cleaning
-
-                      <br /><br />
-                      <b>Exterior</b> <br />
-                      Premium Wash <br />Tyre Cleaning & Dressing <br />Engine
-                      Cleaning & Dressing
-
-                      <br /><br /><b>Results –</b> Clean Shine interior, Gives
-                      high Shine and Gloss
-                      <hr />
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-lg-12">
                 <div class="main-button-red">
-                  <a href="index.html">Back To Home</a>
+                  <a href="index.html">BOOK NOW</a>
                 </div>
               </div>
             </div>
@@ -228,7 +244,14 @@
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/brands-db.js"></script>
     <script>
+      $(".box-service").each(function () {
+        const modelServicePrice = modelDetails.filter(
+          (i) => i.type === $(this).attr("data-tabs")
+        );
+        $(this).children(".price").text(`₹${modelServicePrice[0].interiorDeepCleaning}`)
+      });
       var showSection = function showSection(section, isAnimate) {
         var direction = section.replace(/#/, ""),
           reqSection = $(".section").filter(
