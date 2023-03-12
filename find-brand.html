@@ -115,12 +115,54 @@
                 <li class="has-sub">
                   <a href="javascript:void(0)">Services</a>
                   <ul class="sub-menu">
-                    <li><a href="index.html">Studio</a></li>
                     <li><a href="index.html">Door Step Service</a></li>
-                    <li><a href="annual-membership.html">Annual Membership</a></li>
+                    <li>
+                      <a href="annual-membership.html">Annual Membership</a>
+                    </li>
                     <li>
                       <a href="find-brand.html">Find Your Brand Rates</a>
                     </li>
+                    <ul class="cus-sub-menu">
+                      <li class="has-sub-menu">
+                        <a href="javascript:void(0)">Studio</a>
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="premium-wash.html">PREMIUM WASH</a>
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="interior-deep-cleaning.html"
+                          >INTERIOR DEEP CLEANING</a
+                        >
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="exterior-deep-cleaning.html"
+                          >EXTERIOR POLISHING</a
+                        >
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="complete-car-spa.html">COMPLETE CAR SPA</a>
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="full-auto-detailing.html"
+                          >FULL AUTO DETAILING</a
+                        >
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="ceramic-graphene-coating.html"
+                          >CERAMIC & GRAPHENE COATING</a
+                        >
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="paint-protection-film.html"
+                          >PAINT PROTECTION FILM</a
+                        >
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="ozone-air-purifying-treatment.html"
+                          >OZONE AIR PURIFYING TREATMENT</a
+                        >
+                      </li>
+                    </ul>
                   </ul>
                 </li>
                 <!-- <li class="scroll-to-section">
@@ -291,7 +333,7 @@
       });
       $("#model-select").change(function () {
         let modelPrice = $("option:selected", this).val();
-        $("#vehicle-category").text(modelPrice.replace('L-','LUXURY '))
+        $("#vehicle-category").text(modelPrice.replace("L-", "LUXURY "));
         const modelServicePrice = modelDetails.filter(
           (i) => i.type == modelPrice
         );

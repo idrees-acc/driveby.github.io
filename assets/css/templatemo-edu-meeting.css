@@ -447,7 +447,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu {
   position: absolute;
-  width: 200px;
+  width: 300px;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
   overflow: hidden;
   top: 40px;
@@ -1363,7 +1363,7 @@ section.our-facts h2 {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 20px;
-  padding: 25px 30px 35px 30px;
+  padding: 25px 30px;
   margin: 15px 0px;
 }
 

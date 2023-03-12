@@ -95,8 +95,8 @@
       </div>
     </div>
 
-     <!-- ***** Header Area Start ***** -->
-     <header class="header-area header-sticky">
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -115,14 +115,56 @@
                 <li class="has-sub">
                   <a href="javascript:void(0)">Services</a>
                   <ul class="sub-menu">
-                    <li><a href="index.html">Studio</a></li>
                     <li>
                       <a href="door-step-service.html">Door Step Service</a>
                     </li>
-                    <li><a href="annual-membership.html">Annual Membership</a></li>
+                    <li>
+                      <a href="annual-membership.html">Annual Membership</a>
+                    </li>
                     <li>
                       <a href="find-brand.html">Find Your Brand Rates</a>
                     </li>
+                    <ul class="cus-sub-menu">
+                      <li class="has-sub-menu">
+                        <a href="javascript:void(0)">Studio</a>
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="premium-wash.html">PREMIUM WASH</a>
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="interior-deep-cleaning.html"
+                          >INTERIOR DEEP CLEANING</a
+                        >
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="exterior-deep-cleaning.html"
+                          >EXTERIOR POLISHING</a
+                        >
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="complete-car-spa.html">COMPLETE CAR SPA</a>
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="full-auto-detailing.html"
+                          >FULL AUTO DETAILING</a
+                        >
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="ceramic-graphene-coating.html"
+                          >CERAMIC & GRAPHENE COATING</a
+                        >
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="paint-protection-film.html"
+                          >PAINT PROTECTION FILM</a
+                        >
+                      </li>
+                      <li class="sub-sub-menu">
+                        <a href="ozone-air-purifying-treatment.html"
+                          >OZONE AIR PURIFYING TREATMENT</a
+                        >
+                      </li>
+                    </ul>
                   </ul>
                 </li>
                 <!-- <li class="scroll-to-section">
@@ -147,15 +189,14 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 about position-relative">
-
             <h2>Premium Wash</h2>
           </div>
         </div>
       </div>
     </section>
-<!-- ***** Header Area End ***** -->
+    <!-- ***** Header Area End ***** -->
 
-    <section class="meetings-page service-page    about-page" id="meetings">
+    <section class="meetings-page service-page about-page" id="meetings">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -165,11 +206,11 @@
                   <div class="down-content">
                     <div class="description row">
                       <h1 class="text-center">PREMIUM WASH</h1>
-                      <br />This is an intensive wash wherein we
-                      thoroughly clean all parts of the vehicle exterior
-                      including the underbody, wheel arches, and car engine.
-                      Premium wash consists of multiple steps of cleaning
-                      consisting a Degreaser Wash, Steam Wash, and Foam Wash.
+                      <br />This is an intensive wash wherein we thoroughly
+                      clean all parts of the vehicle exterior including the
+                      underbody, wheel arches, and car engine. Premium wash
+                      consists of multiple steps of cleaning consisting a
+                      Degreaser Wash, Steam Wash, and Foam Wash.
                       <div class="col-lg-4">
                         <br /><b>SERVICES INCLUDES</b><br /><br />
                         <b>Interior</b>
@@ -185,7 +226,9 @@
                         <br /><br /><b>Results –</b> Clean Interior and High
                         Gloss Exterior.
                       </div>
-                      <div class="col-lg-8 row r-gap-15 c-gap-15 pt-3 premium-wash">
+                      <div
+                        class="col-lg-8 row r-gap-15 c-gap-15 pt-3 premium-wash"
+                      >
                         <div class="box-service" data-tabs="HATCH-B">
                           <h1>HATCHBACK</h1>
                           <h2 class="price"></h2>
@@ -206,7 +249,7 @@
                           <h1>LUXURY SEDAN</h1>
                           <h2 class="price"></h2>
                         </div>
-                        <div class="box-service"  data-tabs="L-SUV">
+                        <div class="box-service" data-tabs="L-SUV">
                           <h1>LUXURY SUV</h1>
                           <h2 class="price"></h2>
                         </div>
@@ -255,7 +298,7 @@
         const modelServicePrice = modelDetails.filter(
           (i) => i.type === $(this).attr("data-tabs")
         );
-        $(this).children(".price").text(`₹${modelServicePrice[0].premiumWash}`)
+        $(this).children(".price").text(`₹${modelServicePrice[0].premiumWash}`);
       });
       var showSection = function showSection(section, isAnimate) {
         var direction = section.replace(/#/, ""),
