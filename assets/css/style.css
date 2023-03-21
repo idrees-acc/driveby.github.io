@@ -896,3 +896,21 @@ label {
 .owl-carousel .item:hover {
   background-color: #d9b13d;
 }
+
+.annual-membership.pricing .btn,
+.door-step-service .btn,
+.find-brand-page .btn {
+  opacity: 1;
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
+.annual-membership.pricing .btn a,
+.door-step-service .btn a,
+.find-brand-page .btn a {
+  width: 100%;
+}
+
+.annual-membership .door-step {
+  padding: 1rem 0rem;
+}
